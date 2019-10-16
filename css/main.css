@@ -37,8 +37,7 @@ h1 {
 
 .cards li {
   display: inline-block;
-  margin: .3em .5em 1em;
-  max-width: 20em;
+  margin: .6em .5em .75em;
   background-color: #79756f;
 
 }
@@ -51,17 +50,13 @@ h1 {
 .cards strong {
   display: block;
   margin-bottom: 1rem;
-
   font-size: 1.125rem;
 }
 
-.cards dl {
-  margin-bottom: 1rem;
-}
 
 .cards dt {
   display: inline-block;
-  width: 6em;
+  width: 1em;
   font-style: italic;
 }
 
@@ -77,11 +72,12 @@ h1 {
 
 .cards a {
   display: inline-block;
-  padding: .6em .75em;
+  padding: .6em .5em .75em;
   background-color: #713837;
   border-radius: 4px;
   color: #fff;
   text-decoration: none;
+
 }
 
 .cards a:hover {

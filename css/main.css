@@ -1,0 +1,90 @@
+html {
+
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: Georgia, serif;
+  line-height: 1.5
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family: 'Bevan', sans-serif;
+  color: #fff;
+}
+
+
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  border: 0px 1px 1px 0px solid #595652;
+}
+
+.cards{
+  background-color: #79756f;
+  width: 100%;
+  Padding: .75em;
+
+}
+
+.cards li {
+  display: inline-block;
+  margin: .3em .5em 1em;
+  max-width: 20em;
+  background-color: #79756f;
+
+}
+
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
+
+  font-size: 1.125rem;
+}
+
+.cards dl {
+  margin-bottom: 1rem;
+}
+
+.cards dt {
+  display: inline-block;
+  width: 6em;
+  font-style: italic;
+}
+
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
+
+.cards div {
+  text-align: center;
+}
+
+.cards a {
+  display: inline-block;
+  padding: .6em .75em;
+  background-color: #713837;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cards a:hover {
+  background-color: #f33;
+  color: #fff;
+}

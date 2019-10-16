@@ -2,22 +2,25 @@ html {
 
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Georgia, serif;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-
-
+body {
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  margin: 0;
+}
 h1 {
   text-align: center;
-  font-family: 'Bevan', sans-serif;
+  font-family: Bevan, sans-serif;
   color: #fff;
+  margin-bottom: 0;
 }
-
 .cards {
   list-style-type: none;
   text-align: center;
@@ -29,9 +32,9 @@ h1 {
 
 .cards li {
   display: inline-block;
-  margin: .6em .5em .75em;
+  margin: .3em;
+  padding: .6em .5em .75em;
   background-color: #79756f;
-
 }
 
 .cards a {
@@ -41,10 +44,8 @@ h1 {
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
-
 }
 
 .cards a:hover {
   background-color: #f33;
-  color: #fff;
 }

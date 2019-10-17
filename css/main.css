@@ -1,5 +1,4 @@
 html {
-
   box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
@@ -19,6 +18,7 @@ header {
   background-color: #79756f;
   border-top: 5px solid #595652;
   border-bottom: 5px solid #595652;
+  padding: .6em;
 }
 
 h1 {
@@ -38,8 +38,8 @@ h1 {
 
 .cards li {
   display: inline-block;
-  margin: .3em;
-  padding: .6em .5em .75em;
+
+  margin-bottom: .3em;
   background-color: #79756f;
 }
 
@@ -50,7 +50,7 @@ nav ul {
 
 nav a {
   display: inline-block;
-  padding: 1em;
+  padding: .5em .75em;
   background-color: #713837;
   border-radius: 5px;
   color: #fff;
